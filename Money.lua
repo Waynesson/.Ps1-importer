@@ -1,0 +1,5 @@
+--[[
+Daddy Wayne Owns You
+]]--
+
+local v0=game:GetService("ReplicatedStorage");local v1=game:GetService("Workspace").WorkEnvironments["Nomburger_Food Clerk"];local v2=v1.NPCs;local v3=function(v5,v6) if (v5 and v6) then local v14={};for v17=1, #v6 do v14[v17]=tostring(v6[v17]);end local v15={[1]=v5,[2]=v14};v0:WaitForChild("Modules"):WaitForChild("Jobs"):WaitForChild("Food Clerk"):WaitForChild("Relays"):WaitForChild("TryOrder"):InvokeServer(unpack(v15));end end;local v4=function(v7) local v8=v7:WaitForChild("FunctionalValues");repeat task.wait();until v8:WaitForChild("CanOrder") and (v8.CanOrder.Value==true)  task.wait();v0.Relays.Work.JobInteract:Fire("ClaimCustomer",v7);end;for v9,v10 in pairs(getgc()) do if ((type(v10)=="function") and (debug.getinfo(v10).name=="SetupNPC")) then local v16;v16=hookfunction(v10,function(...) local v19={...};v3(v19[1],v19[2]);return v16(...);end);end end v2.ChildAdded:Connect(function(v11) v4(v11);end);for v12,v13 in pairs(v2:GetChildren()) do v4(v13);end
