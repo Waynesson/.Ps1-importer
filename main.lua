@@ -38,7 +38,7 @@ end
 
 local screenText = "Hello Curtis Alexander Lamont Tyrell\nI Have Added A Suicide Note Template\nTo Your Clipboard Enjoy 🔪🩸"
 
-local clipboardText = "L Nigger I Killed Myslef Hameed Put Me In A Splif"
+local clipboardText = "I have the urge to declare my sanity and justify my actions, but I assume I'll never be able to convince anyone that this was the right decision. Maybe it's true that anyone who does this is insane by definition, but I can at least explain my reasoning. I considered not writing any of this because of how personal it is, but I like tying up loose ends and don't want people to wonder why I did this. Since I've never spoken to anyone about what happened to me, people would likely draw the wrong conclusions. My first memories as a child are of being raped, repeatedly. This has affected every aspect of my life. This darkness, which is the only way I can describe it, has followed me like a fog, but at times intensified and overwhelmed me, usually triggered by a distinct situation."
 
 typeText(screenText, 0.1)
 
